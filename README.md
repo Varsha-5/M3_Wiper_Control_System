@@ -24,43 +24,7 @@ Windshield wipers are operated by an electric motor. The electric motor is attac
 
 # BADGES
 
-### CODACY STATIC CODE ANALYSIS
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f8bd6e49c42d40faaaff8b461a53309a)](https://www.codacy.com/gh/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM&amp;utm_campaign=Badge_Grade)
-
-### CODIGA STATIC ANALYSIS
-
-![Code Quality score](https://api.codiga.io/project/33385/score/svg)
-
-![Code Score](https://api.codiga.io/project/33385/status/svg)
-### ANALYSIS
-
-
-[![Analysis](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Analysis.yml/badge.svg)](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Analysis.yml)
-
-### BUILD-LINUX
-
-[![Build CI -Linux](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Build_linux.yml/badge.svg)](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Build_linux.yml)
-
-### BUILD WINDOWS
-
-[![Build CI - Windows](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Build-Windows.yml/badge.svg)](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Build-Windows.yml)
-
-### VALGRIND
-
-[![Valgrind](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Valgrind.yml)
-
-### CPPCHECK ACTION
-
-[![cppcheck-action](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/cpp%20check.yml/badge.svg)](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/cpp%20check.yml)
-
-### GIT INSPECTOR
-
-[![Contribution Check - Git Inspector](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Git_inspector.yml/badge.svg)](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Git_inspector.yml)
-
-### UNIT TESTING
-
-[![Unit testing](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Unit_Testing.yml/badge.svg)](https://github.com/Abiramikoperundevi/M3_WIPER_CONTROL_SYSTEM/actions/workflows/Unit_Testing.yml)
 
 
 ## Integrated Tools to GitHub
