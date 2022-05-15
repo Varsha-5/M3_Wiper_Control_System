@@ -1,63 +1,64 @@
-#include"wiper.h"            
-                             
-#include<stdio.h>           
+#include <stdio.h>
+#include <stdint.h>
+#include "Wiper-Control-System.h"
 
-#include<stdint.h>        
- 
-
+void Blink_LED(void);
+void Make_a_delay(volatile int time_sec);
 int main(void)
 {
-uint32_t TARGET = 0;
-uint32_t SWITCH_ON = 0;
-uint32_t SWITCH_OFF =0;
-uint32_t INDICATOR= 0 ;
-while (1)                                                           
+  Blink_LED();
+  static int Button_Press=0;     
+  while(1)
+  {
+  if(Button_Press==1) 
+  {
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_14);
+  Make_a_delay(10000);
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_15);
+  Make_a_delay(10000);
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_12);
+  Make_a_delay(10000);
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_13);
+  Make_a_delay(10000);
+  }
+  if(Button_Press==2) 
+  {
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_14);
+  Make_a_delay(2500);
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_15);
+  Make_a_delay(2500);
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_12);
+  Make_a_delay(2500);
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_13);
+  Make_a_delay(2500); 
+  }
+  if(Button_Press==3) 
+  {
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_14);
+  Make_a_delay(1250);
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_15);
+  Make_a_delay(1250);
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_12);
+  Make_a_delay(1250);
+  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_13);
+  Make_a_delay(1250); 
+}
+}
+}
+void Blink_LED(void)
 {
-GPIO_OUT(GPIOA, GPIO_PIN_NO_0, DISABLE);
-if (GPIO_IN(GPIOA, GPIO_PIN_NO_0) == ENABLE)
+	 __HAL_RCC_GPIOD_CLK_ENABLE();
+	GPIO_InitTypeDef LEDs;
+	LEDs.Mode = GPIO_MODE_OUTPUT_PP;
+	LEDs.Pin = GPIO_PIN_14;
+  LEDs.Pin = GPIO_PIN_15;
+  LEDs.Pin = GPIO_PIN_12;
+  LEDs.Pin = GPIO_PIN_13;
+	HAL_GPIO_Init(GPIOD, &LEDs);
+}
+void Make_a_delay(volatile int time_sec)
 {
-			DELAY();
-			TARGET++;
-			if ((TARGET == 1) && (SWITCH_ON != 1) && (SWITCH_ON != 2) && SWITCH_ON != 3)
-			{
-				UNLOCK_CAR();
-				SWITCH_ON = TARGET;
-				TARGET = 0;
-			}
-			else if ((TARGET == 2) && (BUTTON_ON != 2) && BUTTON_ON != 3)
-			{
-				LOCK_CAR();
-				SWITCH_ON = TARGET;
-				TARGET = 0;
-			}
-			else ((ifTARGET == 3) && (SWITCH_ON != 3))
-			{
-				WIPER_MOVEMENT();
-				SWITCH_ON = TARGET;
-				TARGET = 0;
-			}
-			else if (TARGET == 4)
-			{
-				WIPER_SYSTEM_OFF();
-				SWITCH_ON = TARGET;
-				TARGET = 0;
-			}
-}
-}
-}
-void DELAY(void)
-{
-	for (uint32_t j = 0; j < 30000000; j++)
-		;
-}
-void WIPER_SYSTEM_ON(void) 
-{
-	GPIO_toggle(GPIOD, PIN_NO_12);
-	DELAY();
-	GPIO_Output(GPIOD, PIN_NO_12,0 );
-}
-void WIPER_SYSTEM_OFF(void) 
-	GPIO_toggle(GPIOD, PIN_NO_12);
-	DELAY();
-	GPIO_output(GPIOD , PIN_NO_12, 0 );
+	int j;
+        for(j = 0; j < time_sec*5000; j++)
+            {}
 }
