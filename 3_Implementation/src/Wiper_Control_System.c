@@ -32,7 +32,7 @@ if (GPIO_IN(GPIOA, GPIO_PIN_NO_0) == ENABLE)
 			}
 			else ((ifTARGET == 3) && (SWITCH_ON != 3))
 			{
-				CLOCKWISE_MOVEMENT();
+				WIPER_MOVEMENT();
 				SWITCH_ON = TARGET;
 				TARGET = 0;
 			}
