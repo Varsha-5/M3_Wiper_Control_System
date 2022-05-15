@@ -12,8 +12,8 @@ void UNLOCK_CAR(void);
 
 void DELAY(void);
 
-void CLOCKWISE_MOVEMENT(void);
+void WIPER_MOVEMENT(void);
 
-void ANTICLOCKWISE_MOVEMENT(void);
+
 
 #endif 
