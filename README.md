@@ -2,6 +2,12 @@
 
 ![image](https://github.com/Varsha-5/M2_Project_2022/blob/main/wiper%20(2).jfif)
 
+
+# Badges:
+Build | Code Quality | Analysis | [Git Inspector](using github.io option)
+------|----------|-------|--------------
+[![Build CI - Windows](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/Build-Windows.yml/badge.svg)](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/Build-Windows.yml) [![Build CI-Linux](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/Build-Linux.yml/badge.svg)](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/Build-Linux.yml) [![C/C++ CI Build Status](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/Build.yml/badge.svg)](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/Build.yml) |[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e229d15b6c284a729b6e9f66cb1bd13c)](https://www.codacy.com/gh/Varsha-5/M3_Wiper_Control_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Varsha-5/M3_Wiper_Control_System&amp;utm_campaign=Badge_Grade)![Codiga Badge](https://api.codiga.io/project/33525/status/svg)![Codiga Score](https://api.codiga.io/project/33525/score/svg) | [![Cppcheck-Static Code Analysis](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/cppcheck.yml) [![Valgrind - Dynamic Code Analysis](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/Valgrind.yml) |[![Contribution Check - Git Inspector](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/Gitinspector.yml/badge.svg)](https://github.com/Varsha-5/M3_Wiper_Control_System/actions/workflows/Gitinspector.yml)
+
 # INDRODUCTION
 
 The Wiper speed control system is designed to make the vision clear to the drivers driving the car by wiping away the liquid drops sensed by a sensor in the
