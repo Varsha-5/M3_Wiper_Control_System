@@ -1,7 +1,17 @@
-#ifndef WIPER_SYSTEM_H_INCLUDED
+#ifndef WIPER_CONROL_SYSTEM_H_INCLUDED
 
-#define WIPER_SYSTEM_H_INCLUDED
+#define WIPER_CONTROL_SYSTEM_H_INCLUDED
 
-void Blink_LED(void);
-void Making_a_delay(volatile int time);
+void WIPER_SYSTEM_OFF(void);
+
+void WIPER_SYSTEM_ON(void);
+
+void LOCK_CAR(void);
+
+void UNLOCK_CAR(void);
+
+void MAKE_A_DELAY(void);
+
+void WIPER_MOVEMENT(void);
+
 #endif 
