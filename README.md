@@ -36,7 +36,7 @@ Windshield wipers are operated by an electric motor. The electric motor is attac
 
 |S.No. |  Name   |    Features    |No Test Cases|Test Case Pass|
 |:---:|:---:|:---:|:---:|:---:|
-|1. | Varsha R B  | Complete project   | 4   | 4    |
+|1. | Varsha R B  | Complete project   | 5   | 5    |
 
 
 ## Folder Structure
