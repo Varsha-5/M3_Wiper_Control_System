@@ -1,5 +1,7 @@
 # WIPER CONTROL SYSTEM
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d393eb76e7fa44e687e198aee014522a)](https://app.codacy.com/gh/Varsha-5/M3_Wiper_Control_System?utm_source=github.com&utm_medium=referral&utm_content=Varsha-5/M3_Wiper_Control_System&utm_campaign=Badge_Grade_Settings)
+
 ![image](https://github.com/Varsha-5/M2_Project_2022/blob/main/wiper%20(2).jfif)
 
 # INDRODUCTION
